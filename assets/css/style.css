@@ -1,0 +1,200 @@
+* {
+  box-sizing: border-box;
+}
+  
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #3D3930;
+}
+  
+header {
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 35px;
+  color: white;
+  height: 130px;
+}
+  
+nav{
+  float: center;
+  width: 100%;
+  height: 65px;
+  background-color: #3D3930;
+}
+
+article{
+  float: center;
+  padding: 20px;
+  background-color: rgb(255, 255, 255);
+}
+
+.articleindex{
+  float: center;
+  padding: 20px;
+  background-color: white;
+  height: 800px;
+}
+
+section:after {
+  display: table;
+  clear: both;
+}
+  
+footer {
+  background-color: #3D3930;
+  text-align: center;
+  color: white;
+  width: 100%;
+}
+
+.divfooter1{
+  width: 20%;
+  height: 20%;
+  float: left;
+}
+
+.divfooter2{
+  width: 40%;
+  height: 20%;
+  float: left;
+  text-align: left;
+  padding: 35px;
+  font-size: 15;
+  font-weight: 600;
+  color: black;
+}
+
+.divfooter3{
+  width: 40%;
+  height: 20%;
+  float: left;
+  text-align: left;
+  padding-top: 35px;
+  padding-left: 35px;
+}
+
+.formulario{
+  float: left;
+  width: 100%;
+  background-color: #3D3930;
+}
+
+#divlogo{
+  width: 14%;
+  height: 100%;
+  float: left;
+}
+
+#logo{
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+#divnome{
+  width:14%;
+  height:100%;
+  float: left;
+}
+
+#nome{
+  width: 100%;
+  height: 100%;
+}
+
+#divsubnome{
+  width:14.42%;
+  height:100%;
+  float: left;
+}
+
+#subnome{
+  width: 100%;
+  height: 100%;
+}
+
+.divfundo{
+  width:14.39%;
+  height:100%;
+  float: left;
+}
+
+.fundo{
+  width: 100%;
+  height: 100%;
+}
+
+.menu{
+  float: left;
+  background-color: #3D3930;
+  text-align: center;
+  width: 20%;
+  height: 100%;
+  padding-top: 20px;
+  font-size: 17px;
+  font-weight: 650;
+  color: white;
+}
+
+#div1{
+  float: left;
+  background-color: #3D3930;
+  width: 20%;
+  height:5%;
+}
+
+#div2{
+  float: right;
+  background-color: #3D3930;
+  width: 20%;
+  height:5%;
+}
+
+.divbaquetas{
+  width: 21%;
+  height: 35%;
+  float: left;
+  border: solid #3D3930 2px;
+  margin: 2%;
+  text-align: right;
+}
+
+.fotospage{
+  width: 100%;
+  height: 100%;
+}
+
+.logofooter{
+  width: 100%;
+  height: 100%;
+}
+
+.redessociais{
+  width: 6%;
+  height: 6%;
+  margin-left: 0px;
+  text-align: left;
+}
+
+h2{
+  font-size: 23px;
+  color: white;
+  text-align: center;
+}
+
+h3{
+  text-align: center;
+  font-size: 24px;
+}
+
+p{
+  font-size: 19px;
+}
+
+a:link{
+  text-decoration: none;
+}
+
+a:visited{
+  color:white;
+}

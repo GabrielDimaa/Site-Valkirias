@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
+    <meta name="description" content="Aprenda a criar um site completo que usa formulários em HTML">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<body>
+
+    <header>
+        <div class="divfundo">
+            <img class="fundo" src="assets/img/fundo.png" alt="foto">
+        </div>
+        <div class="divfundo">
+            <img class="fundo" src="assets/img/fundo.png" alt="foto">
+        </div>
+        <div id="divlogo">
+            <a href="file:///C:/Users/gabri/OneDrive/Documents/TNI/Trabalho%20G1/index.html">
+                <img id="logo" src="assets/img/logo.png" alt="foto">
+            </a>
+        </div>
+        <div id="divnome">
+            <img id="nome" src="assets/img/valkirias.png" alt="foto">
+        </div>
+        <div id="divsubnome">
+            <img id="subnome" src="assets/img/handmade.png" alt="foto">
+        </div>
+        <div class="divfundo">
+            <img class="fundo" src="assets/img/fundo.png" alt="foto">
+        </div>
+        <div class="divfundo">
+            <img class="fundo" src="assets/img/fundo.png" alt="foto">
+        </div>
+    </header>
+    
+    <section>
+        <nav>
+            <div class="menu"> 
+                <a href="file:///C:/Users/gabri/OneDrive/Documents/TNI/Trabalho%20G1/index.html">Página Inicial</a>
+            </div>
+            <div class="menu">
+                <a href="file:///C:/Users/gabri/OneDrive/Documents/TNI/Trabalho%20G1/produtos.html">Produtos</a>
+            </div>
+            <div class="menu">
+                <a href="file:///C:/Users/gabri/OneDrive/Documents/TNI/Trabalho%20G1/form.html">Cadastro</a>
+            </div>
+            <div class="menu">
+                <a href="file:///C:/Users/gabri/OneDrive/Documents/TNI/Trabalho%20G1/compradores.html">Compradores</a>
+            </div>
+            <div class="menu">
+                <a href="file:///C:/Users/gabri/OneDrive/Documents/TNI/Trabalho%20G1/sobre.html">Informações</a>
+            </div>
+
+        </nav>
+
+        <article id="articleform">
+            <h1>CADASTRE-SE</h1>
+            <hr>
+            <form action="Script_do_Formulario.php" method="post">
+        
+            <fieldset>
+                <legend>Dados Pessoais</legend>
+                    <label for="nome"> Nome: </label>
+                    <input type="text" name="nome">
+        
+                    <label for="sobrenome"> Sobrenome: </label>
+                    <input type="text" name="sobrenome">
+        
+                    <label> Sexo: </label>
+                    <label for="masculino"> Masculino</label>
+                    <input type="radio" value="masculino" name="gender">
+                    <label for="feminino"> Feminino</label>
+                    <input type="radio" value="feminino" name="gender"><br>
+        
+                    <label for="nascimento"> Nascimento: </label>
+                    <input type="date" name="nascimento"><br>
+        
+                    <label for="cpf"> CPF: </label>
+                    <input type="text" name="cpf" size=9 maxlength=9> - <input type="text" name="cpf2" size=2 maxlength=2><br>
+            </fieldset>
+        
+            <fieldset>
+                <legend>DADOS DE ENDEREÇO</legend>
+                    <label for="rua"> Rua: </label>
+                    <input type="text" name="rua">
+        
+                    <label for="numero"> Número: </label>
+                    <input type="text" name="numero"><br>
+        
+                    <label for="bairro"> Bairro: </label>
+                    <input type="text" name="bairro"><br>
+        
+                    <label for="estado"> Estado: </label>
+                    <select type="text" name="estado">
+                        <option value="ac">Acre</option>
+                        <option value="al">Alagoas</option>
+                        <option value="am">Amazonas</option>
+                        <option value="ap">Amapá</option>
+                        <option value="ba">Bahia</option>
+                        <option value="ce">Ceará</option>
+                        <option value="df">Distrito Federal</option>
+                        <option value="es">Espírito Santo</option>
+                        <option value="go">Goiás</option>
+                        <option value="ma">Maranhão</option>
+                        <option value="mt">Mato Grosso</option>
+                        <option value="ms">Mato Grosso do Sul</option>
+                        <option value="mg">Minas Gerais</option>
+                        <option value="pa">Pará</option>
+                        <option value="pb">Paraíba</option>
+                        <option value="pr">Paraná</option>
+                        <option value="pe">Pernambuco</option>
+                        <option value="pi">Piauí</option>
+                        <option value="rj">Rio de Janeiro</option>
+                        <option value="rn">Rio Grande do Norte</option>
+                        <option value="ro">Rondônia</option>
+                        <option value="rs">Rio Grande do Sul</option>
+                        <option value="rr">Roraima</option>
+                        <option value="sc">Santa Catarina</option>
+                        <option value="se">Sergipe</option>
+                        <option value="sp">São Paulo</option>
+                        <option value="to">Tocantins</option>
+                    </select><br>   
+        
+                    <label for="cidade"> Cidade: </label>
+                    <input type="text" name="cidade"><br>
+        
+                    <label for="cep"> CEP: </label>
+                    <input type="text" name="cep" size=5 maxlength=5> - <input type="text" name="cep2" size=3 maxlength=3><br>
+            </fieldset>
+        
+            <fieldset>
+                <legend>DADOS DE LOGIN</legend>
+                    <label for="email"> E-mail: </label>  
+                    <input type="text" name="email"><br>
+        
+                    <label for="imagem"> Imagem: </label>
+                    <input type="file" name="imagem"><br>
+                    
+                    <label for="usuario"> Login de usuário: </label>  
+                    <input type="text" name="usuario"><br>
+        
+                    <label for="senha"> Senha: </label>  
+                    <input type="text" name="senha"><br>
+        
+                    <label for="confirmar"> Confirmar senha: </label>  
+                    <input type="text" name="corfirmar"><br>
+            </fieldset>
+            <br>
+        
+            <input type="submit">
+            <input type="reset" value="limpar">
+            </form>
+        </div>
+        </article>
+
+    </section>
+
+    <footer>
+        <div class="divfooter1">
+            <a href="file:///C:/Users/gabri/OneDrive/Documents/TNI/Trabalho%20G1/index.html">
+                <img class="logofooter" src="assets/img/invisivel.png" alt="foto">
+            </a>
+        </div>
+        <div class="divfooter2">
+            Segunda à quinta, das 9 horas as 20 horas<br><br>
+            Torres/RS - (51) 98205-3622<br><br>
+            CEP: 95560-000<br><br>
+        </div>
+        <div class="divfooter3">
+            <img class="redessociais" src="assets/img/Wpp.png" alt="foto"> (51) 98205-3622<br>
+            <a href="https://www.instagram.com/baquetasvalkirias/?hl=pt-br">
+                <img class="redessociais" src="assets/img/instagram.png" alt="foto">
+            </a><br>
+            <a href="https://www.facebook.com/valkiriasbaquetas/">
+                <img class="redessociais" src="assets/img/Facebook.png" alt="foto">
+            </a><br>
+        </div>
+    </footer>
+
+
+</body>
+</html>
